@@ -38,7 +38,7 @@
  *   the actual server and connection set-up.
  *
  * @license MIT license
- *//
+ */
 'use strict';
 
 // Check for version and dependencies

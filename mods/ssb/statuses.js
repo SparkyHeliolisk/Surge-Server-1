@@ -12,7 +12,7 @@ exports.BattleStatuses = {
 			this.add('c', '~Desokoro', 'You may have vanquished me today, but beware of the future. I shall not be gone long.');
 		},
 	},
-	desokoro: {
+	anrinn: {
 		exists: true,
 		onStart: function () {
 			this.add('c', '~Anrin N', 'Okie u are DEADDD');

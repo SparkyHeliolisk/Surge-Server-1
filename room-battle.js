@@ -9,7 +9,7 @@
  * For the actual battle simulation, see sim/
  *
  * @license MIT license
- *//
+ */
 
 'use strict';
 

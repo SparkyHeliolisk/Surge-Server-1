@@ -226,7 +226,7 @@ class RandomSeasonalRegStaffTeams extends RandomTeams {
 				},
 				nature: 'Timid',
 			},
-	};
+		};
 		// convert moves to ids.
 		for (let k in sets) {
 			sets[k].moves = sets[k].moves.map(toId);

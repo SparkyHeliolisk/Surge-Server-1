@@ -1,22 +1,21 @@
 'use strict';
 
 exports.BattleAbilities = {
-    // Prince Sky
-    ultraneuroforce: {
-        name: "Ultra Neuroforce",
-        id: "ultraneuroforce",
-        isNonStandard: true,
-        desc: "Neuroforce + Adaptability.",
-        onModifyMove: function (move) {
-            move.stab = 2;
-        },
-        onModifyDamage: function (damage, source, target, move) {
-            if (move && move.typeMod > 0) {
-                return this.chainModify([0x1333, 0x1000]);
-            }
-            
-        },
-    },
+	// Prince Sky
+	ultraneuroforce: {
+		name: "Ultra Neuroforce",
+		id: "ultraneuroforce",
+		isNonStandard: true,
+		desc: "Neuroforce + Adaptability.",
+		onModifyMove: function (move) {
+			move.stab = 2;
+		},
+		onModifyDamage: function (damage, source, target, move) {
+			if (move && move.typeMod > 0) {
+				return this.chainModify([0x1333, 0x1000]);
+			}
+		},
+	},
 	//Ashley the Pikachu
 	primalsurge: {
 		name: "Primal Surge",

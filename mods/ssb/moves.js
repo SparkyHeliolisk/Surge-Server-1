@@ -73,7 +73,7 @@ exports.BattleMovedex = {
 	        this.add('c|~Snorlax The Rain|Mighty snorlax coming your way.');
 	    },
 	    target: "normal",
-	    type: "normal",
+	    type: "Normal",
 	},
 	// A Helpful Rayquaza
 	rayquazaroar: {
